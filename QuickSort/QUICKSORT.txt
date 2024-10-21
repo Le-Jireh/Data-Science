@@ -1,0 +1,10 @@
+-Quick Sort
+Quick sort is a recursive algorithm used to sort arrays, it chooses a value of an array as mid-point and then shifts it at the end of the array, for the task to be completed this point mustn't have any larger point at left, ti accomplish this it gets an item at the left, which should be larger and an item to the right which is smaller then swap them till when the item at the left has a larger index than the item in the right, if this is the case you swap the left item with your mid-point.
+
+tasks:
+-pick pivot
+-shift it to the end
+-pick item from left and right
+-check if item from left as a greater index than the item from right
+-(if not) swap them and repeat
+-(if yes) swap pivot and item from left
