@@ -1,6 +1,5 @@
 import matplotlib.pyplot as p
 import numpy as np
-import kagglehub
 import pandas
 
 
@@ -41,3 +40,4 @@ indexes=np.arange(0, 300, 0.5)
 Values=1/(1+np.exp(-indexes*Func[0]+ Func[1]))
 p.plot(indexes, Values)
 p.show()
+
